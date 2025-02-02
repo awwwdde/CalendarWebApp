@@ -1,3 +1,4 @@
+@import '../../graphics/styles/colors.scss';
 .main{
     min-height: 100vh;
     display: flex;
@@ -6,9 +7,10 @@
     flex-direction: column;
     &-time{
         font-size: 500px;
+        color: $mainColor;
     }
     &-date{
         font-size: 40px;
-
+        color: $blueColor;
     }
 }

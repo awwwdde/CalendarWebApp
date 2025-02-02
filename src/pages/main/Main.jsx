@@ -24,7 +24,7 @@ const Main = () => {
     <div className='main .muktatitle'>
         <div className="main-time">{formattedTime}</div>
         <div className="main-date oswaldsubtitle"> 
-            <div className="main-date__up-day">{formattedDate}</div>
+            {formattedDate}
         </div>
     </div>
   );
