@@ -1,0 +1,24 @@
+@import './variables.scss';
+@import './colors.scss';
+@import './fonts.scss';
+.app {
+    position: relative;
+    background-color: #ffffff;
+    width: 100%;
+    min-height: 100vh;
+  }
+  
+  .page-enter {
+    opacity: 0;
+  }
+  .page-enter-active {
+    opacity: 1;
+    transition: opacity 0.5s;
+  }
+  .page-exit {
+    opacity: 1;
+  }
+  .page-exit-active {
+    opacity: 0;
+    transition: opacity 0.5s;
+  }

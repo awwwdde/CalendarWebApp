@@ -1,0 +1,14 @@
+.main{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    &-time{
+        font-size: 500px;
+    }
+    &-date{
+        font-size: 40px;
+
+    }
+}
